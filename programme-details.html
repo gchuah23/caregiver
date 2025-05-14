@@ -1,0 +1,254 @@
+/* Add these to your existing style.css */
+
+/* Navigation Active Link */
+.nav-link.active-nav-link {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+.nav-link.active-nav-link:hover {
+    background-color: var(--secondary-blue);
+}
+
+/* Inline Logo in Text */
+.inline-logo {
+    height: 40px; /* Adjust as needed */
+    width: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.hero-description .inline-logo {
+    background-color: rgba(255,255,255,0.1); /* Slight background if on dark hero */
+    padding: 2px;
+}
+
+
+/* Full Program Teaser Section on index.html */
+.full-program-teaser {
+    background-color: var(--light-blue-bg);
+    text-align: center;
+    padding: 60px 0;
+}
+.full-program-teaser h2 {
+    margin-bottom: 1rem;
+}
+.full-program-teaser .teaser-intro {
+    font-size: 1.1rem;
+    color: var(--light-text);
+    max-width: 700px;
+    margin: 0 auto 1.5rem auto;
+}
+.full-program-teaser .teaser-highlights {
+    margin-bottom: 2rem;
+}
+.full-program-teaser .teaser-highlights p {
+    font-size: 1.05rem;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.full-program-teaser .teaser-highlights p i {
+    color: var(--accent-teal);
+    margin-right: 8px;
+}
+
+/* Styles for programme-details.html */
+.page-title-section {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+    color: var(--white);
+    padding: 50px 0;
+    text-align: center;
+}
+.page-title-section h1 {
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    margin-bottom: 0.5rem;
+}
+.page-title-section .sub-headline {
+    font-size: clamp(1.1rem, 3vw, 1.5rem);
+    color: var(--off-white);
+    opacity: 0.9;
+}
+
+.programme-poster-section {
+    padding: 40px 0;
+    background-color: var(--grey-bg);
+}
+.full-width-poster {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    border: 5px solid var(--white);
+}
+@media (min-width: 992px) {
+    .full-width-poster {
+        max-width: 800px; /* Control max width */
+    }
+}
+
+.programme-intro-section {
+    padding: 50px 0;
+}
+.programme-intro-section .key-transformations {
+    margin-top: 2rem;
+    background-color: var(--light-blue-bg);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    border-left: 5px solid var(--accent-teal);
+}
+.programme-intro-section .key-transformations h3 {
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+.programme-intro-section .key-transformations p {
+    font-size: 1.05rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+.programme-intro-section .key-transformations p i {
+    color: var(--accent-teal);
+    margin-right: 10px;
+}
+
+.programme-structure-section {
+    background-color: var(--off-white);
+    padding: 50px 0;
+}
+.programme-structure-section .structure-details p {
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: flex-start; /* Align icon with first line of text */
+}
+.programme-structure-section .structure-details p i {
+    color: var(--secondary-blue);
+    margin-right: 12px;
+    width: 20px; /* For alignment */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+    margin-top: 4px; /* Align icon better with text */
+}
+.small-print {
+    font-size: 0.85rem !important; /* Ensure it's small */
+    color: var(--light-text) !important;
+    margin-top: 1rem;
+}
+
+.what-you-learn-section {
+    padding: 50px 0;
+}
+.learning-list {
+    list-style: none;
+    padding-left: 0;
+}
+.learning-list li {
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+.learning-list li i {
+    color: var(--accent-teal);
+    margin-right: 12px;
+    font-size: 1.2em;
+}
+
+.detailed-info-section {
+    background-color: var(--light-blue-bg);
+    padding: 50px 0;
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+.info-item {
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+}
+.info-item h4 {
+    color: var(--primary-blue);
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+.info-item h4 i {
+    margin-right: 10px;
+    color: var(--secondary-blue);
+}
+.info-item p {
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+}
+
+.programme-cta-section {
+    text-align: center;
+    padding: 60px 0;
+    background-color: var(--secondary-blue);
+    color: var(--white);
+}
+.programme-cta-section h2 {
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+.programme-cta-section h2::after {
+    background-color: var(--white); /* White underline for dark bg */
+}
+.programme-cta-section p {
+    color: var(--light-blue-bg);
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+}
+.btn-large-cta {
+    padding: 18px 40px;
+    font-size: 1.15rem;
+    background-color: var(--accent-yellow);
+    color: var(--yellow-text);
+    box-shadow: 0 4px 10px rgba(255, 193, 7, 0.4);
+}
+.btn-large-cta:hover {
+    background-color: #FFB300;
+    color: var(--yellow-text);
+    box-shadow: 0 6px 15px rgba(255, 179, 0, 0.5);
+}
+.programme-cta-section .small-print.contact-cta {
+    margin-top: 1.5rem;
+    font-size: 0.9rem !important;
+    color: var(--light-blue-bg) !important;
+}
+
+/* Adjustments to existing styles if needed */
+.trainer-section.programme-trainer { /* Ensure trainer section looks good on new page */
+    background-color: var(--off-white); /* Or consistent background */
+}
+.contact-section.programme-contact h2 {
+    color: var(--primary-blue); /* Ensure heading color consistency */
+}
+.benefits-grid {
+    /* Updated to handle 3 items better if it was previously 4 */
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+@media (min-width: 992px) {
+    .benefits-grid {
+        /* If you have exactly 3 items and want them centered, you might need more specific grid settings */
+        /* For example, if it's always 3 items:
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 900px; /* Control max width of the 3-column grid */
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+}
+
+/* Ensure contact info on index.html has emails clickable */
+.contact-section .contact-info a {
+    color: var(--secondary-blue);
+    text-decoration: underline;
+}
+.contact-section .contact-info a:hover {
+    color: var(--primary-blue);
+}
