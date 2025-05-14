@@ -1,254 +1,155 @@
-/* Add these to your existing style.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-Week Caregiver Certification Programme Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
 
-/* Navigation Active Link */
-.nav-link.active-nav-link {
-    background-color: var(--primary-blue);
-    color: var(--white);
-}
-.nav-link.active-nav-link:hover {
-    background-color: var(--secondary-blue);
-}
+    <header class="site-header">
+        <div class="container nav-container">
+            <div class="logo">Caregiver Academy</div>
+            <nav class="top-navigation">
+                <a href="index.html" class="nav-link">Free Preview</a>
+                <a href="programme-details.html" class="nav-link active-nav-link">Full Programme</a>
+                <a href="https://wa.me/60123902918" target="_blank" rel="noopener noreferrer" class="nav-link whatsapp-nav-link">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </nav>
+        </div>
+    </header>
 
-/* Inline Logo in Text */
-.inline-logo {
-    height: 40px; /* Adjust as needed */
-    width: auto;
-    vertical-align: middle;
-    margin-left: 10px;
-    border-radius: 4px;
-}
-.hero-description .inline-logo {
-    background-color: rgba(255,255,255,0.1); /* Slight background if on dark hero */
-    padding: 2px;
-}
+    <main>
+        <section class="page-title-section">
+            <div class="container">
+                <h1>Building 5-Star Caregivers</h1>
+                <p class="sub-headline">Our Comprehensive Eight-Week Certification Programme</p>
+            </div>
+        </section>
 
+        <section class="programme-poster-section">
+            <div class="container">
+                <img src="full-programme-poster.jpg" alt="8-Week Caregiver Certification Programme Poster" class="full-width-poster">
+            </div>
+        </section>
 
-/* Full Program Teaser Section on index.html */
-.full-program-teaser {
-    background-color: var(--light-blue-bg);
-    text-align: center;
-    padding: 60px 0;
-}
-.full-program-teaser h2 {
-    margin-bottom: 1rem;
-}
-.full-program-teaser .teaser-intro {
-    font-size: 1.1rem;
-    color: var(--light-text);
-    max-width: 700px;
-    margin: 0 auto 1.5rem auto;
-}
-.full-program-teaser .teaser-highlights {
-    margin-bottom: 2rem;
-}
-.full-program-teaser .teaser-highlights p {
-    font-size: 1.05rem;
-    color: var(--text-color);
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-.full-program-teaser .teaser-highlights p i {
-    color: var(--accent-teal);
-    margin-right: 8px;
-}
+        <section class="programme-intro-section">
+            <div class="container">
+                <h2>Programme Overview</h2>
+                <p>This educational 8-week programme is designed specifically for domestic helpers, young and matured caregivers with elder-care experience, equipping you with the skills, knowledge and aptitude to take your caregiving expertise to the next level. Limited to 30 participants per batch.</p>
+                <p class="collaboration-area">A collaboration between <strong>Caregiver Academy</strong>, <strong>myseniorplus.com</strong>, and <strong>Caregivers for the Elderly</strong>.
+                    <img src="caregivers-for-elderly-logo.png" alt="Caregivers for the Elderly Logo" class="inline-logo">
+                </p>
 
-/* Styles for programme-details.html */
-.page-title-section {
-    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
-    color: var(--white);
-    padding: 50px 0;
-    text-align: center;
-}
-.page-title-section h1 {
-    font-size: clamp(2.2rem, 5vw, 3rem);
-    margin-bottom: 0.5rem;
-}
-.page-title-section .sub-headline {
-    font-size: clamp(1.1rem, 3vw, 1.5rem);
-    color: var(--off-white);
-    opacity: 0.9;
-}
+                <div class="key-transformations">
+                    <h3>Your Transformation Journey:</h3>
+                    <p><i class="fas fa-cogs"></i> Transform a domestic helper, to a world-class caregiver.</p>
+                    <p><i class="fas fa-star"></i> Groom a basic carer, to a 5-star professional caregiver for seniors.</p>
+                </div>
+            </div>
+        </section>
 
-.programme-poster-section {
-    padding: 40px 0;
-    background-color: var(--grey-bg);
-}
-.full-width-poster {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-lg);
-    border: 5px solid var(--white);
-}
-@media (min-width: 992px) {
-    .full-width-poster {
-        max-width: 800px; /* Control max width */
-    }
-}
+        <section class="programme-structure-section">
+            <div class="container">
+                <h2>Structure & Investment</h2>
+                <div class="structure-details">
+                    <p><i class="fas fa-clock"></i> <strong>Duration:</strong> 2 hours per module, once a week for eight weeks.</p>
+                    <p><i class="fas fa-calendar-alt"></i> <strong>Schedule:</strong> Every Saturday - 5th April to 24th May 2025. <br>(Graduation on 31st May 2025)</p>
+                    <p><i class="fas fa-dollar-sign"></i> <strong>Full Programme Fee:</strong> RM1,999/- per participant.</p>
+                    <p><i class="fas fa-puzzle-piece"></i> <strong>Single Module Option:</strong> RM250.00 per session/module are available.</p>
+                    <p class="small-print">*Terms & conditions apply. Subject to change & availability.</p>
+                </div>
+            </div>
+        </section>
 
-.programme-intro-section {
-    padding: 50px 0;
-}
-.programme-intro-section .key-transformations {
-    margin-top: 2rem;
-    background-color: var(--light-blue-bg);
-    padding: 20px;
-    border-radius: var(--border-radius);
-    border-left: 5px solid var(--accent-teal);
-}
-.programme-intro-section .key-transformations h3 {
-    color: var(--primary-blue);
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
-}
-.programme-intro-section .key-transformations p {
-    font-size: 1.05rem;
-    color: var(--text-color);
-    margin-bottom: 0.5rem;
-}
-.programme-intro-section .key-transformations p i {
-    color: var(--accent-teal);
-    margin-right: 10px;
-}
+        <section class="trainer-section programme-trainer">
+             <div class="container trainer-content">
+                <div class="trainer-image-container">
+                    <div class="trainer-image-placeholder"><i class="fas fa-user-tie"></i></div>
+                </div>
+                <div class="trainer-bio">
+                    <h2>Meet Your Expert Trainer</h2>
+                    <h3>Dave Avran</h3>
+                    <p class="trainer-credentials">Dave Avran is a 40-year veteran in hospitality. He is Chief Trainer for Jasper Healthcare Group.</p>
+                    <p>Dave will guide you through each module, sharing invaluable industry knowledge and practical skills to elevate your caregiving capabilities.</p>
+                </div>
+            </div>
+        </section>
 
-.programme-structure-section {
-    background-color: var(--off-white);
-    padding: 50px 0;
-}
-.programme-structure-section .structure-details p {
-    font-size: 1.05rem;
-    margin-bottom: 0.75rem;
-    display: flex;
-    align-items: flex-start; /* Align icon with first line of text */
-}
-.programme-structure-section .structure-details p i {
-    color: var(--secondary-blue);
-    margin-right: 12px;
-    width: 20px; /* For alignment */
-    flex-shrink: 0; /* Prevent icon from shrinking */
-    margin-top: 4px; /* Align icon better with text */
-}
-.small-print {
-    font-size: 0.85rem !important; /* Ensure it's small */
-    color: var(--light-text) !important;
-    margin-top: 1rem;
-}
+        <section class="what-you-learn-section">
+            <div class="container">
+                <h2>What You'll Learn</h2>
+                <ul class="learning-list">
+                    <li><i class="fas fa-check"></i> Think like a world-class caregiver</li>
+                    <li><i class="fas fa-check"></i> Cultivate virtues of a caregiver - PATIENCE #1</li>
+                    <li><i class="fas fa-check"></i> Acquire skills of a well-trained caregiver</li>
+                    <li><i class="fas fa-check"></i> Develop 5-star service levels of a hospitality expert</li>
+                    <li><i class="fas fa-check"></i> How to manage cost-effective budgets for patients</li>
+                    <li><i class="fas fa-check"></i> Gather priceless tips from global industry veterans on how to be a top-notch caregiver</li>
+                    <li><i class="fas fa-check"></i> Be wholistically fit to serve a people-based industry</li>
+                </ul>
+            </div>
+        </section>
 
-.what-you-learn-section {
-    padding: 50px 0;
-}
-.learning-list {
-    list-style: none;
-    padding-left: 0;
-}
-.learning-list li {
-    font-size: 1.05rem;
-    margin-bottom: 0.75rem;
-    display: flex;
-    align-items: center;
-}
-.learning-list li i {
-    color: var(--accent-teal);
-    margin-right: 12px;
-    font-size: 1.2em;
-}
+        <section class="detailed-info-section">
+            <div class="container">
+                <h2>Key Programme Information</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <h4><i class="fas fa-map-marker-alt"></i> Venue</h4>
+                        <p>Petaling Jaya, Selangor (Exact location To Be Confirmed)</p>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fas fa-clock"></i> Time</h4>
+                        <p>10:00 AM to 12:00 Noon (Every Saturday)</p>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fas fa-calendar-check"></i> Module Dates (2025)</h4>
+                        <p>April: 5, 12, 19, 26</p>
+                        <p>May: 3, 10, 17, 24</p>
+                        <p>Graduation: May 31</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-.detailed-info-section {
-    background-color: var(--light-blue-bg);
-    padding: 50px 0;
-}
-.info-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-}
-.info-item {
-    background-color: var(--white);
-    padding: 25px;
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-sm);
-}
-.info-item h4 {
-    color: var(--primary-blue);
-    margin-bottom: 0.75rem;
-    display: flex;
-    align-items: center;
-}
-.info-item h4 i {
-    margin-right: 10px;
-    color: var(--secondary-blue);
-}
-.info-item p {
-    font-size: 0.95rem;
-    margin-bottom: 0.3rem;
-}
+        <section class="programme-cta-section">
+            <div class="container">
+                <h2>Ready to Become a 5-Star Caregiver?</h2>
+                <p>Develop yourself to be an expert caregiver and be guided by masters of the trade. <br>Sign up for the full 8-Week Certification Programme today!</p>
+                <a href="https://forms.gle/8T9vobZZyZFoxd3NA" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large-cta">
+                    ENROL IN 8-WEEK PROGRAMME NOW <i class="fas fa-user-graduate"></i>
+                </a>
+                 <p class="small-print contact-cta">For single module enrollment or other inquiries, please contact us.</p>
+            </div>
+        </section>
 
-.programme-cta-section {
-    text-align: center;
-    padding: 60px 0;
-    background-color: var(--secondary-blue);
-    color: var(--white);
-}
-.programme-cta-section h2 {
-    color: var(--white);
-    margin-bottom: 1rem;
-}
-.programme-cta-section h2::after {
-    background-color: var(--white); /* White underline for dark bg */
-}
-.programme-cta-section p {
-    color: var(--light-blue-bg);
-    font-size: 1.1rem;
-    max-width: 700px;
-    margin: 0 auto 2rem auto;
-}
-.btn-large-cta {
-    padding: 18px 40px;
-    font-size: 1.15rem;
-    background-color: var(--accent-yellow);
-    color: var(--yellow-text);
-    box-shadow: 0 4px 10px rgba(255, 193, 7, 0.4);
-}
-.btn-large-cta:hover {
-    background-color: #FFB300;
-    color: var(--yellow-text);
-    box-shadow: 0 6px 15px rgba(255, 179, 0, 0.5);
-}
-.programme-cta-section .small-print.contact-cta {
-    margin-top: 1.5rem;
-    font-size: 0.9rem !important;
-    color: var(--light-blue-bg) !important;
-}
+        <section class="contact-section programme-contact">
+            <div class="container">
+                <h2>Further Inquiries & Contact</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-user-circle"></i> <strong>Dave:</strong> +6011.3606 0306 | <a href="mailto:dave.avran@gmail.com">dave.avran@gmail.com</a></p>
+                    <p><i class="fas fa-user-circle"></i> <strong>Philomena:</strong> +6012.390 2918 | <a href="mailto:myseniorplus.com@gmail.com">myseniorplus.com@gmail.com</a></p>
+                </div>
+                 <a href="https://wa.me/60123902918" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Chat with Philomena on WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
 
-/* Adjustments to existing styles if needed */
-.trainer-section.programme-trainer { /* Ensure trainer section looks good on new page */
-    background-color: var(--off-white); /* Or consistent background */
-}
-.contact-section.programme-contact h2 {
-    color: var(--primary-blue); /* Ensure heading color consistency */
-}
-.benefits-grid {
-    /* Updated to handle 3 items better if it was previously 4 */
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-}
-@media (min-width: 992px) {
-    .benefits-grid {
-        /* If you have exactly 3 items and want them centered, you might need more specific grid settings */
-        /* For example, if it's always 3 items:
-        grid-template-columns: repeat(3, 1fr);
-        max-width: 900px; /* Control max width of the 3-column grid */
-        /* margin-left: auto;
-        margin-right: auto; */
-    }
-}
+    <footer class="site-footer">
+         <div class="container">
+            <p class="collaboration-area">A collaboration between <strong>Caregiver Academy</strong>, <strong>MySeniorPlus.com</strong> & <strong>Caregivers for the Elderly</strong>.
+                <img src="caregivers-for-elderly-logo.png" alt="Caregivers for the Elderly Logo" class="inline-logo footer-logo">
+            </p>
+            <p class="terms">*Terms & conditions apply. Schedule subject to change based on participant numbers and organiser discretion.*</p>
+        </div>
+    </footer>
 
-/* Ensure contact info on index.html has emails clickable */
-.contact-section .contact-info a {
-    color: var(--secondary-blue);
-    text-decoration: underline;
-}
-.contact-section .contact-info a:hover {
-    color: var(--primary-blue);
-}
+</body>
+</html>
